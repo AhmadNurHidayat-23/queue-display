@@ -1,0 +1,21 @@
+{
+  "name": "queue-display",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "setup": "node src/setup.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
